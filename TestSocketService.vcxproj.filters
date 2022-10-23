@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SocketRelation">
+      <UniqueIdentifier>{875670fb-16d5-4596-aed8-d30071b8beaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{49b1d724-c40f-4a34-ad59-6224c7106de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimerRelation">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AlgorithmExercise">
+      <UniqueIdentifier>{9b3442db-f482-4595-94fb-22b3a40872a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Twenty_four Point">
+      <UniqueIdentifier>{d71ba89c-1be5-48d8-90f0-56897572d52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TcpPthreadServer.h">
+      <Filter>SocketRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocketBase.h">
+      <Filter>SocketRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoop.h">
+      <Filter>SocketRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMutex.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadCondition.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="_PER_SOCKET_CONTEXT.h">
+      <Filter>SocketRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="PER_IO_CONTEXT.h">
+      <Filter>SocketRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpMsgHandler.h">
+      <Filter>SocketRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadTask.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateThreadPool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerTask.h">
+      <Filter>TimerRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleLinkList.h">
+      <Filter>TimerRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerDefine.h">
+      <Filter>TimerRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerWheel.h">
+      <Filter>TimerRelation</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>AlgorithmExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>AlgorithmExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="TwentyFour.h">
+      <Filter>Twenty_four Point</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestSocketService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpPthreadServer.cpp">
+      <Filter>SocketRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocketBase.cpp">
+      <Filter>SocketRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoop.cpp">
+      <Filter>SocketRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadCondition.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpMsgHandler.cpp">
+      <Filter>SocketRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTask.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateThreadPool.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerTask.cpp">
+      <Filter>TimerRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleLinkList.cpp">
+      <Filter>TimerRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerWheel.cpp">
+      <Filter>TimerRelation</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>AlgorithmExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>AlgorithmExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="TwentyFour.cpp">
+      <Filter>Twenty_four Point</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
